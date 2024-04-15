@@ -2121,6 +2121,9 @@ You are welcome to use this library for commercial purposes. For attribution, we
 <via x="35.814" y="49.403" extent="1-16" drill="0.35"/>
 <wire x1="35.814" y1="49.403" x2="31.369" y2="53.848" width="0.2032" layer="16"/>
 <wire x1="35.306" y1="47.117" x2="35.306" y2="48.895" width="0.2032" layer="1"/>
+<contactref element="J5" pad="10"/>
+<wire x1="14.605" y1="8.636" x2="14.605" y2="10.795" width="0.2032" layer="1"/>
+<via x="14.605" y="10.795" extent="1-16" drill="0.35"/>
 </signal>
 <signal name="N$5">
 <contactref element="U1" pad="94"/>
@@ -2592,7 +2595,7 @@ You are welcome to use this library for commercial purposes. For attribution, we
 <via x="58.42" y="15.113" extent="1-16" drill="0.35"/>
 <wire x1="58.42" y1="15.113" x2="58.42" y2="11.811" width="0.2032" layer="1"/>
 </signal>
-<signal name="N$9">
+<signal name="USART3_TX">
 <contactref element="U1" pad="33"/>
 <contactref element="USART3" pad="2"/>
 <wire x1="29.25" y1="25.17" x2="29.25" y2="24.2772" width="0.2032" layer="1"/>
@@ -2605,7 +2608,7 @@ You are welcome to use this library for commercial purposes. For attribution, we
 <wire x1="48.641" y1="21.463" x2="48.768" y2="21.463" width="0.2032" layer="1"/>
 <wire x1="48.768" y1="21.463" x2="50.038" y2="20.193" width="0.2032" layer="1"/>
 </signal>
-<signal name="N$11">
+<signal name="USART3_RX">
 <contactref element="U1" pad="34"/>
 <contactref element="USART3" pad="1"/>
 <via x="29.1" y="22.733" extent="1-16" drill="0.35"/>
@@ -2618,7 +2621,7 @@ You are welcome to use this library for commercial purposes. For attribution, we
 <wire x1="29.1" y1="18.906" x2="30.353" y2="17.653" width="0.2032" layer="16"/>
 <wire x1="29.75" y1="25.17" x2="29.75" y2="23.7452125" width="0.2032" layer="1"/>
 </signal>
-<signal name="N$14">
+<signal name="USART4_TX">
 <contactref element="U1" pad="78"/>
 <contactref element="USART4" pad="2"/>
 <wire x1="29.591" y1="51.943" x2="30.48" y2="51.054" width="0.2032" layer="1"/>
@@ -2632,7 +2635,7 @@ You are welcome to use this library for commercial purposes. For attribution, we
 <wire x1="35.179" y1="43.307" x2="36.75" y2="41.736" width="0.2032" layer="1"/>
 <wire x1="35.306" y1="44.95293125" x2="35.306" y2="43.434" width="0.2032" layer="16"/>
 </signal>
-<signal name="N$16">
+<signal name="USART4_RX">
 <contactref element="U1" pad="79"/>
 <contactref element="USART4" pad="1"/>
 <wire x1="36.25" y1="40.87" x2="36.281" y2="40.901" width="0.2032" layer="1"/>
@@ -2648,7 +2651,7 @@ You are welcome to use this library for commercial purposes. For attribution, we
 <wire x1="27.559" y1="49.657" x2="27.051" y2="50.165" width="0.2032" layer="1"/>
 <wire x1="27.051" y1="50.165" x2="27.051" y2="51.943" width="0.2032" layer="1"/>
 </signal>
-<signal name="N$19">
+<signal name="USART1_RX">
 <contactref element="U1" pad="69"/>
 <contactref element="USART1" pad="1"/>
 <wire x1="39.6" y1="36.02" x2="39.648" y2="36.068" width="0.2032" layer="1"/>
@@ -2659,7 +2662,7 @@ You are welcome to use this library for commercial purposes. For attribution, we
 <via x="49.276" y="40.64" extent="1-16" drill="0.35"/>
 <wire x1="49.276" y1="40.64" x2="49.276" y2="38.481" width="0.2032" layer="1"/>
 </signal>
-<signal name="N$20">
+<signal name="USART1_TX">
 <contactref element="U1" pad="68"/>
 <contactref element="USART1" pad="2"/>
 <wire x1="39.6" y1="35.52" x2="41.061" y2="35.52" width="0.2032" layer="1"/>
@@ -2671,7 +2674,7 @@ You are welcome to use this library for commercial purposes. For attribution, we
 <wire x1="47.498" y1="37.211" x2="48.006" y2="37.211" width="0.2032" layer="1"/>
 <wire x1="48.006" y1="37.211" x2="49.276" y2="35.941" width="0.2032" layer="1"/>
 </signal>
-<signal name="N$22">
+<signal name="USART2_TX">
 <contactref element="U1" pad="25"/>
 <contactref element="USART2" pad="2"/>
 <wire x1="23.9" y1="27.02" x2="22.6342" y2="27.02" width="0.2032" layer="1"/>
@@ -2686,7 +2689,7 @@ You are welcome to use this library for commercial purposes. For attribution, we
 <wire x1="25.019" y1="10.16" x2="25.908" y2="9.271" width="0.2032" layer="1"/>
 <wire x1="25.908" y1="9.271" x2="25.908" y2="7.493" width="0.2032" layer="1"/>
 </signal>
-<signal name="N$23">
+<signal name="USART2_RX">
 <contactref element="U1" pad="26"/>
 <contactref element="USART2" pad="1"/>
 <wire x1="25.75" y1="25.17" x2="25.273" y2="24.693" width="0.2032" layer="1"/>
@@ -2710,7 +2713,7 @@ You are welcome to use this library for commercial purposes. For attribution, we
 <wire x1="27.4292" y1="23.12186875" x2="27.4292" y2="18.4122" width="0.2032" layer="1"/>
 <wire x1="27.4292" y1="18.4122" x2="24.13" y2="15.113" width="0.2032" layer="1"/>
 </signal>
-<signal name="N$17">
+<signal name="SPI1_SCK">
 <contactref element="U1" pad="30"/>
 <contactref element="SPI1" pad="2"/>
 <wire x1="27.75" y1="25.17" x2="27.75" y2="23.43096875" width="0.2032" layer="1"/>
@@ -2725,7 +2728,7 @@ You are welcome to use this library for commercial purposes. For attribution, we
 <wire x1="36.3855" y1="8.5725" x2="37.7825" y2="8.5725" width="0.2032" layer="1"/>
 <wire x1="37.7825" y1="8.5725" x2="38.354" y2="8.001" width="0.2032" layer="1"/>
 </signal>
-<signal name="N$18">
+<signal name="SPI1_MISO">
 <contactref element="U1" pad="31"/>
 <contactref element="SPI1" pad="1"/>
 <via x="40.259" y="10.414" extent="1-16" drill="0.35"/>
