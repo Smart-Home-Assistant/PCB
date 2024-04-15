@@ -757,32 +757,6 @@
 </polygon>
 <rectangle x1="-2.7686" y1="-0.3048" x2="-2.4638" y2="0.2286" layer="21"/>
 </package>
-<package name="LL3301FF065QJ">
-<description>&lt;b&gt;LL3301FF065QJ-2&lt;/b&gt;&lt;br&gt;
-</description>
-<smd name="1" x="-3" y="2.25" dx="2.1" dy="1.4" layer="1"/>
-<smd name="2" x="3" y="2.25" dx="2.1" dy="1.4" layer="1"/>
-<smd name="3" x="-3" y="-2.25" dx="2.1" dy="1.4" layer="1"/>
-<smd name="4" x="3" y="-2.25" dx="2.1" dy="1.4" layer="1"/>
-<text x="0" y="0" size="1.27" layer="25" align="center">&gt;NAME</text>
-<text x="0" y="0" size="1.27" layer="27" align="center">&gt;VALUE</text>
-<wire x1="-3" y1="3" x2="3" y2="3" width="0.2" layer="51"/>
-<wire x1="3" y1="3" x2="3" y2="-3" width="0.2" layer="51"/>
-<wire x1="3" y1="-3" x2="-3" y2="-3" width="0.2" layer="51"/>
-<wire x1="-3" y1="-3" x2="-3" y2="3" width="0.2" layer="51"/>
-<wire x1="-4.55" y1="3.5" x2="4.55" y2="3.5" width="0.1" layer="51"/>
-<wire x1="4.55" y1="3.5" x2="4.55" y2="-3.5" width="0.1" layer="51"/>
-<wire x1="4.55" y1="-3.5" x2="-4.55" y2="-3.5" width="0.1" layer="51"/>
-<wire x1="-4.55" y1="-3.5" x2="-4.55" y2="3.5" width="0.1" layer="51"/>
-<wire x1="-1" y1="3" x2="1" y2="3" width="0.1" layer="21"/>
-<wire x1="-1" y1="-3" x2="1" y2="-3" width="0.1" layer="21"/>
-<wire x1="-3" y1="1" x2="-3" y2="-1" width="0.1" layer="21"/>
-<wire x1="3" y1="1" x2="3" y2="-1" width="0.1" layer="21"/>
-<wire x1="-3.8" y1="1.2" x2="-3.8" y2="1.2" width="0.2" layer="21"/>
-<wire x1="-3.8" y1="1.2" x2="-3.8" y2="1" width="0.2" layer="21" curve="180"/>
-<wire x1="-3.8" y1="1" x2="-3.8" y2="1" width="0.2" layer="21"/>
-<wire x1="-3.8" y1="1" x2="-3.8" y2="1.2" width="0.2" layer="21" curve="180"/>
-</package>
 <package name="AMPHENOL_10118192-0001LF">
 <wire x1="-3.75" y1="0.225" x2="3.75" y2="0.225" width="0.127" layer="51"/>
 <wire x1="3.75" y1="0.225" x2="3.75" y2="-4.125" width="0.127" layer="51"/>
@@ -871,6 +845,45 @@
 <text x="-7.901140625" y="-3.900559375" size="1.27018125" layer="27">&gt;VALUE</text>
 <smd name="1" x="-1.9" y="0" dx="2" dy="2.4" layer="1"/>
 <smd name="2" x="1.9" y="0" dx="2" dy="2.4" layer="1"/>
+</package>
+<package name="XTAL_ECS-.327-12.5-12QS-TR">
+<wire x1="-2" y1="1" x2="-2" y2="-1" width="0.127" layer="51"/>
+<wire x1="-2" y1="-1" x2="2" y2="-1" width="0.127" layer="51"/>
+<wire x1="2" y1="-1" x2="2" y2="1" width="0.127" layer="51"/>
+<wire x1="2" y1="1" x2="-2" y2="1" width="0.127" layer="51"/>
+<text x="-1.272509375" y="1.145259375" size="0.407203125" layer="25">&gt;NAME</text>
+<text x="-1.270909375" y="-1.555109375" size="0.406690625" layer="27">&gt;VALUE</text>
+<smd name="1" x="-1.25" y="0" dx="1.1" dy="1.9" layer="1"/>
+<smd name="2" x="1.25" y="0" dx="1.1" dy="1.9" layer="1"/>
+<wire x1="-2.1" y1="1.1" x2="-2.1" y2="-1.1" width="0.05" layer="39"/>
+<wire x1="-2.1" y1="1.1" x2="2.1" y2="1.1" width="0.05" layer="39"/>
+<wire x1="-2.1" y1="-1.1" x2="2.1" y2="-1.1" width="0.05" layer="39"/>
+<wire x1="-2.1" y1="-1.1" x2="2.1" y2="-1.1" width="0.05" layer="39"/>
+<wire x1="2.1" y1="-1.1" x2="2.1" y2="1.1" width="0.05" layer="39"/>
+</package>
+<package name="LL3301FF065QJ">
+<description>&lt;b&gt;LL3301FF065QJ-2&lt;/b&gt;&lt;br&gt;
+</description>
+<smd name="1" x="-1.6" y="0.825" dx="0.7" dy="0.75" layer="1"/>
+<smd name="2" x="1.6" y="0.825" dx="0.7" dy="0.75" layer="1"/>
+<smd name="3" x="-1.6" y="-0.825" dx="0.7" dy="0.75" layer="1"/>
+<smd name="4" x="1.6" y="-0.825" dx="0.7" dy="0.75" layer="1"/>
+<text x="0" y="-3.81" size="1.27" layer="25" align="center">&gt;NAME</text>
+<text x="0" y="3.81" size="1.27" layer="27" align="center">&gt;VALUE</text>
+<wire x1="-2.2" y1="1.73" x2="2.2" y2="1.73" width="0.2" layer="51"/>
+<wire x1="2.2" y1="1.73" x2="2.2" y2="-1.73" width="0.2" layer="51"/>
+<wire x1="2.2" y1="-1.73" x2="-2.2" y2="-1.73" width="0.2" layer="51"/>
+<wire x1="-2.2" y1="-1.73" x2="-2.2" y2="1.73" width="0.2" layer="51"/>
+<wire x1="-2.4" y1="1.9" x2="2.4" y2="1.9" width="0.1" layer="51"/>
+<wire x1="2.4" y1="1.9" x2="2.4" y2="-1.9" width="0.1" layer="51"/>
+<wire x1="2.4" y1="-1.9" x2="-2.4" y2="-1.9" width="0.1" layer="51"/>
+<wire x1="-2.4" y1="-1.9" x2="-2.4" y2="1.9" width="0.1" layer="51"/>
+<wire x1="-1" y1="1.73" x2="1" y2="1.73" width="0.1" layer="21"/>
+<wire x1="-1" y1="-1.73" x2="1" y2="-1.73" width="0.1" layer="21"/>
+<wire x1="-2.2" y1="1" x2="-2.2" y2="-1" width="0.1" layer="21"/>
+<wire x1="2.2" y1="1" x2="2.2" y2="-1" width="0.1" layer="21"/>
+<wire x1="-3.8" y1="1.2" x2="-3.8" y2="1" width="0.2" layer="21" curve="180"/>
+<wire x1="-3.8" y1="1" x2="-3.8" y2="1.2" width="0.2" layer="21" curve="180"/>
 </package>
 </packages>
 <symbols>
@@ -1091,35 +1104,6 @@
 <pin name="+" x="0" y="2.54" visible="off" length="short" direction="pas" swaplevel="1" rot="R270"/>
 <pin name="-" x="0" y="-5.08" visible="off" length="short" direction="pas" swaplevel="1" rot="R90"/>
 </symbol>
-<symbol name="PUSHBUTTON">
-<wire x1="-5.08" y1="5.08" x2="-5.08" y2="2.54" width="0.127" layer="94"/>
-<wire x1="-5.08" y1="2.54" x2="-5.08" y2="-2.54" width="0.127" layer="94"/>
-<wire x1="-5.08" y1="-2.54" x2="-5.08" y2="-5.08" width="0.127" layer="94"/>
-<wire x1="-1.27" y1="0" x2="1.27" y2="1.27" width="0.127" layer="94"/>
-<wire x1="5.08" y1="5.08" x2="5.08" y2="2.54" width="0.127" layer="94"/>
-<text x="-5.0897" y="5.85315" size="1.803440625" layer="95">&gt;NAME</text>
-<text x="-5.088309375" y="-7.63246875" size="1.802940625" layer="96">&gt;VALUE</text>
-<circle x="-1.27" y="0" radius="0.254" width="0.127" layer="94"/>
-<circle x="1.27" y="0" radius="0.254" width="0.127" layer="94"/>
-<wire x1="5.08" y1="2.54" x2="5.08" y2="-2.54" width="0.127" layer="94"/>
-<wire x1="5.08" y1="-2.54" x2="5.08" y2="-5.08" width="0.127" layer="94"/>
-<wire x1="-5.08" y1="-5.08" x2="5.08" y2="-5.08" width="0.127" layer="94"/>
-<wire x1="-5.08" y1="5.08" x2="5.08" y2="5.08" width="0.127" layer="94"/>
-<wire x1="-5.08" y1="2.54" x2="-3.81" y2="2.54" width="0.127" layer="94"/>
-<wire x1="-3.81" y1="2.54" x2="-3.81" y2="0" width="0.127" layer="94"/>
-<wire x1="-3.81" y1="0" x2="-3.81" y2="-2.54" width="0.127" layer="94"/>
-<wire x1="-3.81" y1="-2.54" x2="-5.08" y2="-2.54" width="0.127" layer="94"/>
-<wire x1="-3.81" y1="0" x2="-1.27" y2="0" width="0.127" layer="94"/>
-<wire x1="1.27" y1="0" x2="3.81" y2="0" width="0.127" layer="94"/>
-<wire x1="3.81" y1="0" x2="3.81" y2="2.54" width="0.127" layer="94"/>
-<wire x1="3.81" y1="2.54" x2="5.08" y2="2.54" width="0.127" layer="94"/>
-<wire x1="3.81" y1="0" x2="3.81" y2="-2.54" width="0.127" layer="94"/>
-<wire x1="3.81" y1="-2.54" x2="5.08" y2="-2.54" width="0.127" layer="94"/>
-<pin name="1" x="-10.16" y="2.54" visible="pad" length="middle" direction="pas"/>
-<pin name="2" x="-10.16" y="-2.54" visible="pad" length="middle" direction="pas"/>
-<pin name="3" x="10.16" y="2.54" visible="pad" length="middle" direction="pas" rot="R180"/>
-<pin name="4" x="10.16" y="-2.54" visible="pad" length="middle" direction="pas" rot="R180"/>
-</symbol>
 <symbol name="10118192-0001LF">
 <wire x1="-5.08" y1="10.16" x2="5.08" y2="10.16" width="0.1524" layer="94"/>
 <wire x1="5.08" y1="10.16" x2="5.08" y2="-10.16" width="0.1524" layer="94"/>
@@ -1169,6 +1153,35 @@
 <text x="-5.58906875" y="-3.81073125" size="1.778340625" layer="96">&gt;VALUE</text>
 <pin name="2" x="5.08" y="0" visible="off" length="short" direction="pas" rot="R180"/>
 <pin name="1" x="-5.08" y="0" visible="off" length="short" direction="pas"/>
+</symbol>
+<symbol name="PUSHBUTTON">
+<wire x1="-5.08" y1="5.08" x2="-5.08" y2="2.54" width="0.127" layer="94"/>
+<wire x1="-5.08" y1="2.54" x2="-5.08" y2="-2.54" width="0.127" layer="94"/>
+<wire x1="-5.08" y1="-2.54" x2="-5.08" y2="-5.08" width="0.127" layer="94"/>
+<wire x1="-1.27" y1="0" x2="1.27" y2="1.27" width="0.127" layer="94"/>
+<wire x1="5.08" y1="5.08" x2="5.08" y2="2.54" width="0.127" layer="94"/>
+<text x="-5.0897" y="5.85315" size="1.803440625" layer="95">&gt;NAME</text>
+<text x="-5.088309375" y="-7.63246875" size="1.802940625" layer="96">&gt;VALUE</text>
+<circle x="-1.27" y="0" radius="0.254" width="0.127" layer="94"/>
+<circle x="1.27" y="0" radius="0.254" width="0.127" layer="94"/>
+<wire x1="5.08" y1="2.54" x2="5.08" y2="-2.54" width="0.127" layer="94"/>
+<wire x1="5.08" y1="-2.54" x2="5.08" y2="-5.08" width="0.127" layer="94"/>
+<wire x1="-5.08" y1="-5.08" x2="5.08" y2="-5.08" width="0.127" layer="94"/>
+<wire x1="-5.08" y1="5.08" x2="5.08" y2="5.08" width="0.127" layer="94"/>
+<wire x1="-5.08" y1="2.54" x2="-3.81" y2="2.54" width="0.127" layer="94"/>
+<wire x1="-3.81" y1="2.54" x2="-3.81" y2="0" width="0.127" layer="94"/>
+<wire x1="-3.81" y1="0" x2="-3.81" y2="-2.54" width="0.127" layer="94"/>
+<wire x1="-3.81" y1="-2.54" x2="-5.08" y2="-2.54" width="0.127" layer="94"/>
+<wire x1="-3.81" y1="0" x2="-1.27" y2="0" width="0.127" layer="94"/>
+<wire x1="1.27" y1="0" x2="3.81" y2="0" width="0.127" layer="94"/>
+<wire x1="3.81" y1="0" x2="3.81" y2="2.54" width="0.127" layer="94"/>
+<wire x1="3.81" y1="2.54" x2="5.08" y2="2.54" width="0.127" layer="94"/>
+<wire x1="3.81" y1="0" x2="3.81" y2="-2.54" width="0.127" layer="94"/>
+<wire x1="3.81" y1="-2.54" x2="5.08" y2="-2.54" width="0.127" layer="94"/>
+<pin name="1" x="-10.16" y="2.54" visible="pad" length="middle" direction="pas"/>
+<pin name="2" x="-10.16" y="-2.54" visible="pad" length="middle" direction="pas"/>
+<pin name="3" x="10.16" y="2.54" visible="pad" length="middle" direction="pas" rot="R180"/>
+<pin name="4" x="10.16" y="-2.54" visible="pad" length="middle" direction="pas" rot="R180"/>
 </symbol>
 </symbols>
 <devicesets>
@@ -1570,33 +1583,6 @@ Source: &lt;a href="http://www.farnell.com/datasheets/1680476.pdf"&gt; Datasheet
 </device>
 </devices>
 </deviceset>
-<deviceset name="LL3301FF065QJ" prefix="S">
-<description>&lt;b&gt;Pushbutton Switches 50mA 12VDC F065 7.0mm J-Lead&lt;/b&gt;&lt;p&gt;
-Source: &lt;a href="https://componentsearchengine.com/Datasheets/1/LL3301FF065QJ.pdf"&gt; Datasheet &lt;/a&gt;</description>
-<gates>
-<gate name="G$1" symbol="PUSHBUTTON" x="15.24" y="2.54"/>
-</gates>
-<devices>
-<device name="" package="LL3301FF065QJ">
-<connects>
-<connect gate="G$1" pin="1" pad="1"/>
-<connect gate="G$1" pin="2" pad="2"/>
-<connect gate="G$1" pin="3" pad="3"/>
-<connect gate="G$1" pin="4" pad="4"/>
-</connects>
-<technologies>
-<technology name="">
-<attribute name="DESCRIPTION" value="Pushbutton Switches 50mA 12VDC F065 7.0mm J-Lead" constant="no"/>
-<attribute name="HEIGHT" value="7.3mm" constant="no"/>
-<attribute name="MANUFACTURER_NAME" value="E-Switch" constant="no"/>
-<attribute name="MANUFACTURER_PART_NUMBER" value="LL3301FF065QJ" constant="no"/>
-<attribute name="MOUSER_PART_NUMBER" value="612-LL3301FF065QJ" constant="no"/>
-<attribute name="MOUSER_PRICE-STOCK" value="https://www.mouser.com/Search/Refine.aspx?Keyword=612-LL3301FF065QJ" constant="no"/>
-</technology>
-</technologies>
-</device>
-</devices>
-</deviceset>
 <deviceset name="RC0402FR-0710KL" prefix="R">
 <description>RES SMD 10k OHM 1% 1/16W 0402</description>
 <gates>
@@ -1707,6 +1693,57 @@ Source: &lt;a href="http://suddendocs.samtec.com/prints/ftsh-1xx-xx-xxx-dv-xxx-x
 <attribute name="MP" value="ABLS-8.000MHZ-B2"/>
 <attribute name="PACKAGE" value="HC-49/US Abracon LLC"/>
 <attribute name="PRICE" value="None"/>
+</technology>
+</technologies>
+</device>
+</devices>
+</deviceset>
+<deviceset name="ECS-.327-12.5-12QS-TR" prefix="Y">
+<description>SMD CRYSTAL 32.768 KHz</description>
+<gates>
+<gate name="G$1" symbol="OSCILLATOR" x="0" y="0"/>
+</gates>
+<devices>
+<device name="" package="XTAL_ECS-.327-12.5-12QS-TR">
+<connects>
+<connect gate="G$1" pin="1" pad="1"/>
+<connect gate="G$1" pin="2" pad="2"/>
+</connects>
+<technologies>
+<technology name="">
+<attribute name="AVAILABILITY" value="Unavailable"/>
+<attribute name="DESCRIPTION" value=" 32.768kHz ±20ppm Crystal 12.5pF 90 kOhms 2-SMD, No Lead "/>
+<attribute name="MF" value="ECS Inc."/>
+<attribute name="MP" value="ECS-.327-12.5-12QS-TR"/>
+<attribute name="PACKAGE" value="SMD-2 ECS International"/>
+<attribute name="PRICE" value="None"/>
+</technology>
+</technologies>
+</device>
+</devices>
+</deviceset>
+<deviceset name="LL3301FF065QJ" prefix="S">
+<description>&lt;b&gt;Pushbutton Switches 50mA 12VDC F065 7.0mm J-Lead&lt;/b&gt;&lt;p&gt;
+Source: &lt;a href="https://componentsearchengine.com/Datasheets/1/LL3301FF065QJ.pdf"&gt; Datasheet &lt;/a&gt;</description>
+<gates>
+<gate name="G$1" symbol="PUSHBUTTON" x="15.24" y="2.54"/>
+</gates>
+<devices>
+<device name="" package="LL3301FF065QJ">
+<connects>
+<connect gate="G$1" pin="1" pad="1"/>
+<connect gate="G$1" pin="2" pad="2"/>
+<connect gate="G$1" pin="3" pad="3"/>
+<connect gate="G$1" pin="4" pad="4"/>
+</connects>
+<technologies>
+<technology name="">
+<attribute name="DESCRIPTION" value="Pushbutton Switches 50mA 12VDC F065 7.0mm J-Lead" constant="no"/>
+<attribute name="HEIGHT" value="7.3mm" constant="no"/>
+<attribute name="MANUFACTURER_NAME" value="E-Switch" constant="no"/>
+<attribute name="MANUFACTURER_PART_NUMBER" value="LL3301FF065QJ" constant="no"/>
+<attribute name="MOUSER_PART_NUMBER" value="612-LL3301FF065QJ" constant="no"/>
+<attribute name="MOUSER_PRICE-STOCK" value="https://www.mouser.com/Search/Refine.aspx?Keyword=612-LL3301FF065QJ" constant="no"/>
 </technology>
 </technologies>
 </device>
@@ -4222,7 +4259,6 @@ This footprint was designed to help hold the alignment of a through-hole compone
 <part name="GND5" library="supply1" library_urn="urn:adsk.eagle:library:371" deviceset="GND" device=""/>
 <part name="C19" library="ce-capstone" deviceset="CC0402CRNPO9BN4R7" device=""/>
 <part name="C20" library="ce-capstone" deviceset="CC0402CRNPO9BN4R7" device=""/>
-<part name="S1" library="ce-capstone" deviceset="LL3301FF065QJ" device=""/>
 <part name="C21" library="ce-capstone" deviceset="CC0402KRX7R7BB104" device=""/>
 <part name="GND6" library="supply1" library_urn="urn:adsk.eagle:library:371" deviceset="GND" device=""/>
 <part name="R9" library="ce-capstone" deviceset="RC0402FR-0710KL" device=""/>
@@ -4245,6 +4281,8 @@ This footprint was designed to help hold the alignment of a through-hole compone
 <part name="DAC4" library="SparkFun-Connectors" library_urn="urn:adsk.eagle:library:513" deviceset="CONN_02" device="" package3d_urn="urn:adsk.eagle:package:38039/2"/>
 <part name="U$2" library="MicroSDFootprint" deviceset="MICROSDDEVICE" device=""/>
 <part name="Y1" library="ce-capstone" deviceset="ABLS-8.000MHZ-B2-T" device=""/>
+<part name="Y2" library="ce-capstone" deviceset="ECS-.327-12.5-12QS-TR" device=""/>
+<part name="S1" library="ce-capstone" deviceset="LL3301FF065QJ" device=""/>
 </parts>
 <sheets>
 <sheet>
@@ -4373,9 +4411,6 @@ This footprint was designed to help hold the alignment of a through-hole compone
 <instance part="C20" gate="G$1" x="-50.8" y="48.26" smashed="yes" rot="R90">
 <attribute name="NAME" x="-51.181" y="49.784" size="1.778" layer="95" rot="R90"/>
 </instance>
-<instance part="S1" gate="G$1" x="5.08" y="139.7" smashed="yes" rot="R270">
-<attribute name="NAME" x="10.1503" y="145.55315" size="1.803440625" layer="95"/>
-</instance>
 <instance part="C21" gate="G$1" x="-12.7" y="142.24" smashed="yes">
 <attribute name="NAME" x="-11.176" y="142.621" size="1.778" layer="95"/>
 </instance>
@@ -4455,6 +4490,13 @@ This footprint was designed to help hold the alignment of a through-hole compone
 </instance>
 <instance part="Y1" gate="G$1" x="-68.58" y="73.66" smashed="yes" rot="R90">
 <attribute name="NAME" x="-68.57886875" y="76.453490625" size="1.7784" layer="95" rot="R180"/>
+</instance>
+<instance part="Y2" gate="G$1" x="-68.58" y="53.34" smashed="yes" rot="R90">
+<attribute name="NAME" x="-70.866509375" y="48.25886875" size="1.7784" layer="95" rot="R90"/>
+</instance>
+<instance part="S1" gate="G$1" x="5.08" y="139.7" smashed="yes" rot="R270">
+<attribute name="NAME" x="10.93315" y="144.7897" size="1.803440625" layer="95" rot="R270"/>
+<attribute name="VALUE" x="-2.55246875" y="144.788309375" size="1.802940625" layer="96" rot="R270"/>
 </instance>
 </instances>
 <busses>
@@ -4589,12 +4631,12 @@ This footprint was designed to help hold the alignment of a through-hole compone
 <segment>
 <pinref part="C21" gate="G$1" pin="2"/>
 <wire x1="-12.7" y1="137.16" x2="-12.7" y2="129.54" width="0.1524" layer="91"/>
-<pinref part="S1" gate="G$1" pin="3"/>
 <wire x1="-12.7" y1="129.54" x2="2.54" y2="129.54" width="0.1524" layer="91"/>
-<pinref part="S1" gate="G$1" pin="4"/>
-<wire x1="2.54" y1="129.54" x2="7.62" y2="129.54" width="0.1524" layer="91"/>
 <junction x="2.54" y="129.54"/>
 <pinref part="GND6" gate="1" pin="GND"/>
+<pinref part="S1" gate="G$1" pin="3"/>
+<pinref part="S1" gate="G$1" pin="4"/>
+<wire x1="2.54" y1="129.54" x2="7.62" y2="129.54" width="0.1524" layer="91"/>
 </segment>
 <segment>
 <pinref part="J1" gate="G$1" pin="GND"/>
@@ -4937,9 +4979,12 @@ This footprint was designed to help hold the alignment of a through-hole compone
 <label x="-17.78" y="55.88" size="1.778" layer="95"/>
 </segment>
 <segment>
-<wire x1="-101.6" y1="58.42" x2="-53.34" y2="58.42" width="0.1524" layer="91"/>
+<wire x1="-101.6" y1="58.42" x2="-68.58" y2="58.42" width="0.1524" layer="91"/>
 <label x="-101.6" y="58.42" size="1.778" layer="95"/>
 <pinref part="C19" gate="G$1" pin="1"/>
+<pinref part="Y2" gate="G$1" pin="2"/>
+<wire x1="-68.58" y1="58.42" x2="-53.34" y2="58.42" width="0.1524" layer="91"/>
+<junction x="-68.58" y="58.42"/>
 </segment>
 </net>
 <net name="PC15-OSC32-OUT" class="0">
@@ -4949,9 +4994,12 @@ This footprint was designed to help hold the alignment of a through-hole compone
 <label x="-17.78" y="53.34" size="1.778" layer="95"/>
 </segment>
 <segment>
-<wire x1="-101.6" y1="48.26" x2="-53.34" y2="48.26" width="0.1524" layer="91"/>
+<wire x1="-101.6" y1="48.26" x2="-68.58" y2="48.26" width="0.1524" layer="91"/>
 <label x="-101.6" y="48.26" size="1.778" layer="95"/>
 <pinref part="C20" gate="G$1" pin="1"/>
+<pinref part="Y2" gate="G$1" pin="1"/>
+<wire x1="-68.58" y1="48.26" x2="-53.34" y2="48.26" width="0.1524" layer="91"/>
+<junction x="-68.58" y="48.26"/>
 </segment>
 </net>
 <net name="PH0-OSC-IN" class="0">
@@ -4988,9 +5036,6 @@ This footprint was designed to help hold the alignment of a through-hole compone
 <label x="-10.16" y="40.64" size="1.778" layer="95"/>
 </segment>
 <segment>
-<pinref part="S1" gate="G$1" pin="1"/>
-<pinref part="S1" gate="G$1" pin="2"/>
-<wire x1="7.62" y1="149.86" x2="2.54" y2="149.86" width="0.1524" layer="91"/>
 <wire x1="2.54" y1="149.86" x2="-12.7" y2="149.86" width="0.1524" layer="91"/>
 <junction x="2.54" y="149.86"/>
 <label x="-20.32" y="149.86" size="1.778" layer="95"/>
@@ -5000,6 +5045,8 @@ This footprint was designed to help hold the alignment of a through-hole compone
 <junction x="-12.7" y="149.86"/>
 <pinref part="R9" gate="G$1" pin="1"/>
 <wire x1="2.54" y1="149.86" x2="2.54" y2="152.4" width="0.1524" layer="91"/>
+<pinref part="S1" gate="G$1" pin="2"/>
+<wire x1="5.08" y1="149.86" x2="2.54" y2="149.86" width="0.1524" layer="91"/>
 </segment>
 <segment>
 <pinref part="J2" gate="G$1" pin="12"/>
@@ -5389,6 +5436,12 @@ This footprint was designed to help hold the alignment of a through-hole compone
 <wire x1="43.18" y1="-45.72" x2="38.1" y2="-45.72" width="0.1524" layer="91"/>
 <pinref part="SPI1" gate="J1" pin="1"/>
 <wire x1="38.1" y1="-45.72" x2="38.1" y2="-48.26" width="0.1524" layer="91"/>
+</segment>
+</net>
+<net name="N$21" class="0">
+<segment>
+<wire x1="7.62" y1="149.86" x2="5.1562" y2="149.86" width="0.1524" layer="91"/>
+<pinref part="S1" gate="G$1" pin="1"/>
 </segment>
 </net>
 </nets>
