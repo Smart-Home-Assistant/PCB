@@ -1860,8 +1860,8 @@ You are welcome to use this library for commercial purposes. For attribution, we
 <attribute name="MOUSER_PRICE-STOCK" value="https://www.mouser.com/Search/Refine.aspx?Keyword=612-LL3301FF065QJ" x="5.588" y="41.402" size="1.778" layer="27" display="off"/>
 <attribute name="NAME" x="5.588" y="38.354" size="1.27" layer="25" align="center"/>
 </element>
-<element name="U4" library="ESP8266EX" package="ESP8266EX" value="ESP8266EX" x="-4.953" y="0.254" smashed="yes">
-<attribute name="NAME" x="-6.953" y="3.154" size="0.6096" layer="21"/>
+<element name="U4" library="ESP8266EX" package="ESP8266EX" value="ESP8266EX" x="58.42" y="49.53" smashed="yes">
+<attribute name="NAME" x="56.42" y="52.43" size="0.6096" layer="21"/>
 </element>
 </elements>
 <signals>
@@ -2101,6 +2101,9 @@ You are welcome to use this library for commercial purposes. For attribution, we
 <wire x1="18.962" y1="32.004" x2="18.0084" y2="32.004" width="0.1524" layer="1"/>
 <wire x1="18.0084" y1="32.004" x2="17.653" y2="32.3594" width="0.1524" layer="1"/>
 <via x="17.653" y="32.3594" extent="1-16" drill="0.35"/>
+<contactref element="U4" pad="GND"/>
+<wire x1="58.42" y1="49.53" x2="59.817" y2="48.133" width="0.1524" layer="1"/>
+<via x="59.817" y="48.133" extent="1-16" drill="0.35"/>
 </signal>
 <signal name="3V3">
 <contactref element="U1" pad="28"/>
@@ -2694,10 +2697,8 @@ You are welcome to use this library for commercial purposes. For attribution, we
 </signal>
 <signal name="SCK_LLS">
 <contactref element="U3" pad="8"/>
-<wire x1="62.742" y1="32.367" x2="60.833" y2="30.458" width="0.2032" layer="1"/>
-<wire x1="60.833" y1="30.458" x2="60.833" y2="28.176" width="0.2032" layer="1"/>
-<wire x1="59.69" y1="24.384" x2="59.69" y2="27.033" width="0.2032" layer="1"/>
-<wire x1="60.833" y1="28.176" x2="59.69" y2="27.033" width="0.2032" layer="1"/>
+<wire x1="62.742" y1="32.367" x2="62.742" y2="27.436" width="0.2032" layer="1"/>
+<wire x1="59.69" y1="24.384" x2="62.742" y2="27.436" width="0.2032" layer="1"/>
 <via x="59.69" y="24.384" extent="1-16" drill="0.35"/>
 <contactref element="U$2" pad="P$5"/>
 <wire x1="55.12" y1="20.064" x2="55.12" y2="11.811" width="0.2032" layer="1"/>

@@ -4911,6 +4911,11 @@ This footprint was designed to help hold the alignment of a through-hole compone
 <label x="243.84" y="68.58" size="1.778" layer="95"/>
 <pinref part="U$2" gate="G$1" pin="GND4"/>
 </segment>
+<segment>
+<pinref part="U4" gate="G$1" pin="GND"/>
+<wire x1="182.88" y1="22.86" x2="182.88" y2="30.48" width="0.1524" layer="91"/>
+<label x="182.88" y="25.4" size="1.778" layer="95" rot="R90"/>
+</segment>
 </net>
 <net name="3V3" class="0">
 <segment>

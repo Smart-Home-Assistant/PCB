@@ -852,26 +852,6 @@
 <wire x1="-4.2" y1="-4" x2="-4.2" y2="-4" width="0.3" layer="21"/>
 <wire x1="-4.2" y1="-4" x2="-4" y2="-4" width="0.3" layer="21" curve="180"/>
 </package>
-<package name="XTAL_ABLS-8.000MHZ-B2-T">
-<wire x1="-5.7" y1="-2.35" x2="-5.7" y2="2.35" width="0.127" layer="51"/>
-<wire x1="-5.7" y1="2.35" x2="5.7" y2="2.35" width="0.127" layer="51"/>
-<wire x1="5.7" y1="2.35" x2="5.7" y2="-2.35" width="0.127" layer="51"/>
-<wire x1="5.7" y1="-2.35" x2="-5.7" y2="-2.35" width="0.127" layer="51"/>
-<wire x1="-5.7" y1="1.42" x2="-5.7" y2="2.35" width="0.127" layer="21"/>
-<wire x1="-5.7" y1="2.35" x2="5.7" y2="2.35" width="0.127" layer="21"/>
-<wire x1="5.7" y1="2.35" x2="5.7" y2="1.42" width="0.127" layer="21"/>
-<wire x1="-5.7" y1="-1.42" x2="-5.7" y2="-2.35" width="0.127" layer="21"/>
-<wire x1="-5.7" y1="-2.35" x2="5.7" y2="-2.35" width="0.127" layer="21"/>
-<wire x1="5.7" y1="-2.35" x2="5.7" y2="-1.42" width="0.127" layer="21"/>
-<wire x1="-7.8" y1="-2.6" x2="-7.8" y2="2.6" width="0.05" layer="39"/>
-<wire x1="-7.8" y1="2.6" x2="7.8" y2="2.6" width="0.05" layer="39"/>
-<wire x1="7.8" y1="2.6" x2="7.8" y2="-2.6" width="0.05" layer="39"/>
-<wire x1="7.8" y1="-2.6" x2="-7.8" y2="-2.6" width="0.05" layer="39"/>
-<text x="-7.800590625" y="2.7002" size="1.2701" layer="25">&gt;NAME</text>
-<text x="-7.901140625" y="-3.900559375" size="1.27018125" layer="27">&gt;VALUE</text>
-<smd name="1" x="-4.75" y="0" dx="5.6" dy="2.1" layer="1"/>
-<smd name="2" x="4.75" y="0" dx="5.6" dy="2.1" layer="1"/>
-</package>
 <package name="XTAL_ECS-.327-12.5-12QS-TR">
 <wire x1="-1" y1="0.6" x2="-1" y2="-0.6" width="0.127" layer="51"/>
 <wire x1="-1" y1="-0.6" x2="1" y2="-0.6" width="0.127" layer="51"/>
@@ -1697,30 +1677,6 @@ Source: &lt;a href="http://suddendocs.samtec.com/prints/ftsh-1xx-xx-xxx-dv-xxx-x
 <attribute name="MOUSER_PRICE-STOCK" value="https://www.mouser.com/Search/Refine.aspx?Keyword=200-FTSH10701LDVKA" constant="no"/>
 <attribute name="RS_PART_NUMBER" value="" constant="no"/>
 <attribute name="RS_PRICE-STOCK" value="" constant="no"/>
-</technology>
-</technologies>
-</device>
-</devices>
-</deviceset>
-<deviceset name="ABLS-8.000MHZ-B2-T" prefix="Y">
-<description>Crystal 8MHz Â±20ppm (Tol) Â±50ppm (Stability) 18pF FUND 80Ohm 2-Pin HC-49/US SMD T/R</description>
-<gates>
-<gate name="G$1" symbol="OSCILLATOR" x="0" y="0"/>
-</gates>
-<devices>
-<device name="" package="XTAL_ABLS-8.000MHZ-B2-T">
-<connects>
-<connect gate="G$1" pin="1" pad="1"/>
-<connect gate="G$1" pin="2" pad="2"/>
-</connects>
-<technologies>
-<technology name="">
-<attribute name="AVAILABILITY" value="Unavailable"/>
-<attribute name="DESCRIPTION" value=" 8MHz ±20ppm Crystal 18pF 80 Ohms HC-49/US "/>
-<attribute name="MF" value="Abracon LLC"/>
-<attribute name="MP" value="ABLS-8.000MHZ-B2"/>
-<attribute name="PACKAGE" value="HC-49/US Abracon LLC"/>
-<attribute name="PRICE" value="None"/>
 </technology>
 </technologies>
 </device>
@@ -4270,7 +4226,6 @@ This footprint was designed to help hold the alignment of a through-hole compone
 <part name="FRAME1" library="frames" library_urn="urn:adsk.eagle:library:229" deviceset="FRAME_B_L" device=""/>
 <part name="J3" library="SparkFun-Connectors" library_urn="urn:adsk.eagle:library:513" deviceset="CONN_14" device="" package3d_urn="urn:adsk.eagle:package:38183/2"/>
 <part name="GND8" library="supply1" library_urn="urn:adsk.eagle:library:371" deviceset="GND" device=""/>
-<part name="Y1" library="ce-capstone" deviceset="ABLS-8.000MHZ-B2-T" device=""/>
 <part name="Y2" library="ce-capstone" deviceset="ECS-.327-12.5-12QS-TR" device=""/>
 <part name="USART3" library="SparkFun-Connectors" library_urn="urn:adsk.eagle:library:513" deviceset="CONN_02" device="" package3d_urn="urn:adsk.eagle:package:38039/2"/>
 <part name="USART4" library="SparkFun-Connectors" library_urn="urn:adsk.eagle:library:513" deviceset="CONN_02" device="" package3d_urn="urn:adsk.eagle:package:38039/2"/>
@@ -4447,9 +4402,6 @@ This footprint was designed to help hold the alignment of a through-hole compone
 </instance>
 <instance part="GND8" gate="1" x="-60.96" y="-50.8" smashed="yes">
 <attribute name="VALUE" x="-63.5" y="-53.34" size="1.778" layer="96"/>
-</instance>
-<instance part="Y1" gate="G$1" x="-68.58" y="73.66" smashed="yes" rot="R90">
-<attribute name="NAME" x="-68.58113125" y="75.946509375" size="1.7784" layer="95"/>
 </instance>
 <instance part="Y2" gate="G$1" x="-68.58" y="53.34" smashed="yes" rot="R90">
 <attribute name="NAME" x="-68.58113125" y="55.626509375" size="1.7784" layer="95"/>
@@ -5009,11 +4961,8 @@ This footprint was designed to help hold the alignment of a through-hole compone
 <label x="-10.16" y="45.72" size="1.778" layer="95"/>
 </segment>
 <segment>
-<wire x1="-101.6" y1="78.74" x2="-68.58" y2="78.74" width="0.1524" layer="91"/>
+<wire x1="-101.6" y1="78.74" x2="-53.34" y2="78.74" width="0.1524" layer="91"/>
 <pinref part="C17" gate="G$1" pin="1"/>
-<pinref part="Y1" gate="G$1" pin="2"/>
-<wire x1="-68.58" y1="78.74" x2="-53.34" y2="78.74" width="0.1524" layer="91"/>
-<junction x="-68.58" y="78.74"/>
 <label x="-101.6" y="78.74" size="1.778" layer="95"/>
 </segment>
 </net>
@@ -5181,10 +5130,7 @@ This footprint was designed to help hold the alignment of a through-hole compone
 <segment>
 <pinref part="R8" gate="G$1" pin="2"/>
 <pinref part="C18" gate="G$1" pin="1"/>
-<wire x1="-73.66" y1="68.58" x2="-68.58" y2="68.58" width="0.1524" layer="91"/>
-<pinref part="Y1" gate="G$1" pin="1"/>
-<wire x1="-68.58" y1="68.58" x2="-53.34" y2="68.58" width="0.1524" layer="91"/>
-<junction x="-68.58" y="68.58"/>
+<wire x1="-73.66" y1="68.58" x2="-53.34" y2="68.58" width="0.1524" layer="91"/>
 </segment>
 </net>
 <net name="BOOT0" class="0">
